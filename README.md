@@ -5,7 +5,9 @@ A fully functional e-commerce web application built with **React 18 + Vite** as 
 ---
 
 ## 🚀 Live Demo
-`https://shopsphere-by-me.vercel.app/`
+```bash
+https://shopsphere-by-me.vercel.app/
+```
 
 ---
 
