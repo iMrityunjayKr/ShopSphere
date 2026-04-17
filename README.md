@@ -5,13 +5,7 @@ A fully functional e-commerce web application built with **React 18 + Vite** as 
 ---
 
 ## 🚀 Live Demo
-> Deployment coming soon on Vercel
-
----
-
-## 📸 Screenshots
-
-> Add screenshots here after deployment
+`https://shopsphere-by-me.vercel.app/`
 
 ---
 
@@ -110,7 +104,7 @@ src/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/shopsphere.git
+git clone https://github.com/iMrityunjayKr/shopsphere.git
 
 # Navigate to project
 cd shopsphere
