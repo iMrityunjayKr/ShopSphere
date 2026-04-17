@@ -1,0 +1,15 @@
+.shop {
+  display: flex;
+  flex-direction: column; 
+  gap: 50px; 
+  padding: 30px; 
+}
+
+.product-grid {
+  display: grid;
+  
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 40px;
+  padding: 20px 0;
+  margin-top: 20px;
+}

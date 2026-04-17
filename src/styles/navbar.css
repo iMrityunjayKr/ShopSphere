@@ -1,0 +1,103 @@
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.brand img {
+  height: 45px;
+  width: auto;
+}
+.app-name {
+  color: var(--white);
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
+
+.navbar {
+  position: sticky; 
+  top: 10px;       
+  margin: 10px 20px; 
+  z-index: 1000;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: var(--primary);
+  border-radius: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.2); 
+  border-radius: 25px; 
+  padding: 5px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.search-input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  width: 100%;
+  padding: 8px 5px;
+  font-size: 1rem;
+}
+.search-input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.search-input:focus {
+  background-color: transparent;
+}
+
+.search-input:not(:placeholder-shown) {
+  border-color: var(--white);
+  font-weight: 500;
+}
+
+.cart-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-price {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--white);
+}
+
+.cart-icon-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.cart-badge {
+  position: absolute;
+  top: -12px;
+  right: -10px;
+  min-width: 20px;
+  height: 20px;
+  background-color: #ef4444;
+  color: white;
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  border-radius: 10px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
